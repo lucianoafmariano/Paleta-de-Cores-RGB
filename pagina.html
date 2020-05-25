@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático 1</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <h1>Que tal essa paleta de cores RGB? Escolha a sua!!!</h1>
+
+    <div class="panel">
+      <div class="panelCores">
+        <div class="panel">
+          <div class="divCores">
+            CORES
+          </div>
+
+          <div class="divRange">
+            COMBINE A SUA!
+          </div>
+
+          <div class="divInput">
+            VALOR
+          </div>
+
+          <div class="break"></div>
+
+          <div class="divCores">
+            <span class="labelRed">(R) Vermelho</span>
+          </div>
+
+          <div class="divRange">
+            <input id="red" type="range" min="0" max="255" value="0" />
+          </div>
+
+          <div class="divInput">
+            <input class="inputValue" id="redValue" type="text" value="0" />
+          </div>
+
+          <div class="break"></div>
+
+          <div class="divCores">
+            <span class="labelGreen">(G) Verde</span>
+          </div>
+
+          <div class="divRange">
+            <input id="green" type="range" min="0" max="255" value="0" />
+          </div>
+
+          <div class="divInput">
+            <input class="inputValue" id="greenValue" type="text" value="0" />
+          </div>
+
+          <div class="break"></div>
+
+          <div class="divCores">
+            <span class="labelBlue">(B) Azul</span>
+          </div>
+
+          <div class="divRange">
+            <input id="blue" type="range" min="0" max="255" value="0" />
+          </div>
+
+          <div class="divInput">
+            <input class="inputValue" id="blueValue" type="text" value="0" />
+          </div>
+        </div>
+      </div>
+
+      <div id="quadrado"></div>
+    </div>
+  </body>
+</html>
